@@ -1,6 +1,10 @@
 # Dockerfile for Laravel (DotaHunt) on Render.com
-FROM composer:2.2 as vendor
+FROM composer:2.2 as composerbin
 
+FROM php:8.2-cli-alpine as vendor
+RUN apk add --no-cache zip unzip git icu-dev oniguruma-dev postgresql-dev libzip-dev zlib-dev \
+    && docker-php-ext-configure zip && docker-php-ext-install zip pdo_pgsql intl
+COPY --from=composerbin /usr/bin/composer /usr/bin/composer
 WORKDIR /app
 COPY composer.json composer.lock ./
 RUN composer install --no-dev --no-scripts --prefer-dist --no-interaction
