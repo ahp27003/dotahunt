@@ -1,0 +1,955 @@
+{
+    "1": {
+        "id": 1,
+        "localized_name": "Anti-Mage",
+        "attack_type": "Melee",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/antimage_full.png?",
+        "icon": "/apps/dota2/images/heroes/antimage_icon.png",
+        "lane": "Safelane"
+    },
+    "2": {
+        "id": 2,
+        "localized_name": "Axe",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/axe_full.png?",
+        "icon": "/apps/dota2/images/heroes/axe_icon.png",
+        "lane": "Offlane"
+    },
+    "3": {
+        "id": 3,
+        "localized_name": "Bane",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/bane_full.png?",
+        "icon": "/apps/dota2/images/heroes/bane_icon.png",
+        "lane": "Safelane"
+    },
+    "4": {
+        "id": 4,
+        "localized_name": "Bloodseeker",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/bloodseeker_full.png?",
+        "icon": "/apps/dota2/images/heroes/bloodseeker_icon.png",
+        "lane": "Safelane"
+    },
+    "5": {
+        "id": 5,
+        "localized_name": "Crystal Maiden",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/crystal_maiden_full.png?",
+        "icon": "/apps/dota2/images/heroes/crystal_maiden_icon.png",
+        "lane": "Safelane"
+    },
+    "6": {
+        "id": 6,
+        "localized_name": "Drow Ranger",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/drow_ranger_full.png?",
+        "icon": "/apps/dota2/images/heroes/drow_ranger_icon.png",
+        "lane": "Safelane"
+    },
+    "7": {
+        "id": 7,
+        "localized_name": "Earthshaker",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/earthshaker_full.png?",
+        "icon": "/apps/dota2/images/heroes/earthshaker_icon.png",
+        "lane": "Roamer"
+    },
+    "8": {
+        "id": 8,
+        "localized_name": "Juggernaut",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/juggernaut_full.png?",
+        "icon": "/apps/dota2/images/heroes/juggernaut_icon.png",
+        "lane": "Safelane"
+    },
+    "9": {
+        "id": 9,
+        "localized_name": "Mirana",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/mirana_full.png?",
+        "icon": "/apps/dota2/images/heroes/mirana_icon.png",
+        "lane": "Roamer"
+    },
+    "10": {
+        "id": 10,
+        "localized_name": "Morphling",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/morphling_full.png?",
+        "icon": "/apps/dota2/images/heroes/morphling_icon.png",
+        "lane": "Safelane"
+    },
+    "11": {
+        "id": 11,
+        "localized_name": "Shadow Fiend",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/nevermore_full.png?",
+        "icon": "/apps/dota2/images/heroes/nevermore_icon.png",
+        "lane": "Midlane"
+    },
+    "12": {
+        "id": 12,
+        "localized_name": "Phantom Lancer",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/phantom_lancer_full.png?",
+        "icon": "/apps/dota2/images/heroes/phantom_lancer_icon.png",
+        "lane": "Safelane"
+    },
+    "13": {
+        "id": 13,
+        "localized_name": "Puck",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/puck_full.png?",
+        "icon": "/apps/dota2/images/heroes/puck_icon.png",
+        "lane": "Midlane"
+    },
+    "14": {
+        "id": 14,
+        "localized_name": "Pudge",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/pudge_full.png?",
+        "icon": "/apps/dota2/images/heroes/pudge_icon.png",
+        "lane": "Roamer"
+    },
+    "15": {
+        "id": 15,
+        "localized_name": "Razor",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/razor_full.png?",
+        "icon": "/apps/dota2/images/heroes/razor_icon.png",
+        "lane": "Midlane"
+    },
+    "16": {
+        "id": 16,
+        "localized_name": "Sand King",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/sand_king_full.png?",
+        "icon": "/apps/dota2/images/heroes/sand_king_icon.png",
+        "lane": "Offlane"
+    },
+    "17": {
+        "id": 17,
+        "localized_name": "Storm Spirit",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/storm_spirit_full.png?",
+        "icon": "/apps/dota2/images/heroes/storm_spirit_icon.png",
+        "lane": "Midlane"
+    },
+    "18": {
+        "id": 18,
+        "localized_name": "Sven",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/sven_full.png?",
+        "icon": "/apps/dota2/images/heroes/sven_icon.png",
+        "lane": "Safelane"
+    },
+    "19": {
+        "id": 19,
+        "localized_name": "Tiny",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/tiny_full.png?",
+        "icon": "/apps/dota2/images/heroes/tiny_icon.png",
+        "lane": "Midlane"
+    },
+    "20": {
+        "id": 20,
+        "localized_name": "Vengeful Spirit",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/vengefulspirit_full.png?",
+        "icon": "/apps/dota2/images/heroes/vengefulspirit_icon.png",
+        "lane": "Roamer"
+    },
+    "21": {
+        "id": 21,
+        "localized_name": "Windranger",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/windrunner_full.png?",
+        "icon": "/apps/dota2/images/heroes/windrunner_icon.png",
+        "lane": "Midlane"
+    },
+    "22": {
+        "id": 22,
+        "localized_name": "Zeus",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/zuus_full.png?",
+        "icon": "/apps/dota2/images/heroes/zuus_icon.png",
+        "lane": "Midlane"
+    },
+    "23": {
+        "id": 23,
+        "localized_name": "Kunkka",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/kunkka_full.png?",
+        "icon": "/apps/dota2/images/heroes/kunkka_icon.png",
+        "lane": "Midlane"
+    },
+    "25": {
+        "id": 25,
+        "localized_name": "Lina",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/lina_full.png?",
+        "icon": "/apps/dota2/images/heroes/lina_icon.png",
+        "lane": "Midlane"
+    },
+    "26": {
+        "id": 26,
+        "localized_name": "Lion",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/lion_full.png?",
+        "icon": "/apps/dota2/images/heroes/lion_icon.png",
+        "lane": "Safelane"
+    },
+    "27": {
+        "id": 27,
+        "localized_name": "Shadow Shaman",
+        "roles": "Roamer",
+        "img": "/apps/dota2/images/heroes/shadow_shaman_full.png?",
+        "icon": "/apps/dota2/images/heroes/shadow_shaman_icon.png",
+        "lane": "Safelane"
+    },
+    "28": {
+        "id": 28,
+        "localized_name": "Slardar",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/slardar_full.png?",
+        "icon": "/apps/dota2/images/heroes/slardar_icon.png",
+        "lane": "Offlane"
+    },
+    "29": {
+        "id": 29,
+        "localized_name": "Tidehunter",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/tidehunter_full.png?",
+        "icon": "/apps/dota2/images/heroes/tidehunter_icon.png",
+        "lane": "Offlane"
+    },
+    "30": {
+        "id": 30,
+        "localized_name": "Witch Doctor",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/witch_doctor_full.png?",
+        "icon": "/apps/dota2/images/heroes/witch_doctor_icon.png",
+        "lane": "Safelane"
+    },
+    "31": {
+        "id": 31,
+        "localized_name": "Lich",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/lich_full.png?",
+        "icon": "/apps/dota2/images/heroes/lich_icon.png",
+        "lane": "Safelane"
+    },
+    "32": {
+        "id": 32,
+        "localized_name": "Riki",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/riki_full.png?",
+        "icon": "/apps/dota2/images/heroes/riki_icon.png",
+        "lane": "Offlane"
+    },
+    "33": {
+        "id": 33,
+        "localized_name": "Enigma",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/enigma_full.png?",
+        "icon": "/apps/dota2/images/heroes/enigma_icon.png",
+        "lane": "Offlane"
+    },
+    "34": {
+        "id": 34,
+        "localized_name": "Tinker",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/tinker_full.png?",
+        "icon": "/apps/dota2/images/heroes/tinker_icon.png",
+        "lane": "Midlane"
+    },
+    "35": {
+        "id": 35,
+        "localized_name": "Sniper",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/sniper_full.png?",
+        "icon": "/apps/dota2/images/heroes/sniper_icon.png",
+        "lane": "Midlane"
+    },
+    "36": {
+        "id": 36,
+        "localized_name": "Necrophos",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/necrolyte_full.png?",
+        "icon": "/apps/dota2/images/heroes/necrolyte_icon.png",
+        "lane": "Midlane"
+    },
+    "37": {
+        "id": 37,
+        "localized_name": "Warlock",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/warlock_full.png?",
+        "icon": "/apps/dota2/images/heroes/warlock_icon.png",
+        "lane": "Safelane"
+    },
+    "38": {
+        "id": 38,
+        "localized_name": "Beastmaster",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/beastmaster_full.png?",
+        "icon": "/apps/dota2/images/heroes/beastmaster_icon.png",
+        "lane": "Offlane"
+    },
+    "39": {
+        "id": 39,
+        "localized_name": "Queen of Pain",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/queenofpain_full.png?",
+        "icon": "/apps/dota2/images/heroes/queenofpain_icon.png",
+        "lane": "Midlane"
+    },
+    "40": {
+        "id": 40,
+        "localized_name": "Venomancer",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/venomancer_full.png?",
+        "icon": "/apps/dota2/images/heroes/venomancer_icon.png",
+        "lane": "Offlane"
+    },
+    "41": {
+        "id": 41,
+        "localized_name": "Faceless Void",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/faceless_void_full.png?",
+        "icon": "/apps/dota2/images/heroes/faceless_void_icon.png",
+        "lane": "Safelane"
+    },
+    "42": {
+        "id": 42,
+        "localized_name": "Wraith King",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/skeleton_king_full.png?",
+        "icon": "/apps/dota2/images/heroes/skeleton_king_icon.png",
+        "lane": "Safelane"
+    },
+    "43": {
+        "id": 43,
+        "localized_name": "Death Prophet",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/death_prophet_full.png?",
+        "icon": "/apps/dota2/images/heroes/death_prophet_icon.png",
+        "lane": "Midlane"
+    },
+    "44": {
+        "id": 44,
+        "localized_name": "Phantom Assassin",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/phantom_assassin_full.png?",
+        "icon": "/apps/dota2/images/heroes/phantom_assassin_icon.png",
+        "lane": "Safelane"
+    },
+    "45": {
+        "id": 45,
+        "localized_name": "Pugna",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/pugna_full.png?",
+        "icon": "/apps/dota2/images/heroes/pugna_icon.png",
+        "lane": "Midlane"
+    },
+    "46": {
+        "id": 46,
+        "localized_name": "Templar Assassin",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/templar_assassin_full.png?",
+        "icon": "/apps/dota2/images/heroes/templar_assassin_icon.png",
+        "lane": "Midlane"
+    },
+    "47": {
+        "id": 47,
+        "localized_name": "Viper",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/viper_full.png?",
+        "icon": "/apps/dota2/images/heroes/viper_icon.png",
+        "lane": "Midlane"
+    },
+    "48": {
+        "id": 48,
+        "localized_name": "Luna",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/luna_full.png?",
+        "icon": "/apps/dota2/images/heroes/luna_icon.png",
+        "lane": "Safelane"
+    },
+    "49": {
+        "id": 49,
+        "localized_name": "Dragon Knight",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/dragon_knight_full.png?",
+        "icon": "/apps/dota2/images/heroes/dragon_knight_icon.png",
+        "lane": "Midlane"
+    },
+    "50": {
+        "id": 50,
+        "localized_name": "Dazzle",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/dazzle_full.png?",
+        "icon": "/apps/dota2/images/heroes/dazzle_icon.png",
+        "lane": "Safelane"
+    },
+    "51": {
+        "id": 51,
+        "localized_name": "Clockwerk",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/rattletrap_full.png?",
+        "icon": "/apps/dota2/images/heroes/rattletrap_icon.png",
+        "lane": "Offlane"
+    },
+    "52": {
+        "id": 52,
+        "localized_name": "Leshrac",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/leshrac_full.png?",
+        "icon": "/apps/dota2/images/heroes/leshrac_icon.png",
+        "lane": "Midlane"
+    },
+    "53": {
+        "id": 53,
+        "localized_name": "Nature's Prophet",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/furion_full.png?",
+        "icon": "/apps/dota2/images/heroes/furion_icon.png",
+        "lane": "Offlane"
+    },
+    "54": {
+        "id": 54,
+        "localized_name": "Lifestealer",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/life_stealer_full.png?",
+        "icon": "/apps/dota2/images/heroes/life_stealer_icon.png",
+        "lane": "Safelane"
+    },
+    "55": {
+        "id": 55,
+        "localized_name": "Dark Seer",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/dark_seer_full.png?",
+        "icon": "/apps/dota2/images/heroes/dark_seer_icon.png",
+        "lane": "Offlane"
+    },
+    "56": {
+        "id": 56,
+        "localized_name": "Clinkz",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/clinkz_full.png?",
+        "icon": "/apps/dota2/images/heroes/clinkz_icon.png",
+        "lane": "Safelane"
+    },
+    "57": {
+        "id": 57,
+        "localized_name": "Omniknight",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/omniknight_full.png?",
+        "icon": "/apps/dota2/images/heroes/omniknight_icon.png",
+        "lane": "Offlane"
+    },
+    "58": {
+        "id": 58,
+        "localized_name": "Enchantress",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/enchantress_full.png?",
+        "icon": "/apps/dota2/images/heroes/enchantress_icon.png",
+        "lane": "Offlane"
+    },
+    "59": {
+        "id": 59,
+        "localized_name": "Huskar",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/huskar_full.png?",
+        "icon": "/apps/dota2/images/heroes/huskar_icon.png",
+        "lane": "Midlane"
+    },
+    "60": {
+        "id": 60,
+        "localized_name": "Night Stalker",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/night_stalker_full.png?",
+        "icon": "/apps/dota2/images/heroes/night_stalker_icon.png",
+        "lane": "Offlane"
+    },
+    "61": {
+        "id": 61,
+        "localized_name": "Broodmother",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/broodmother_full.png?",
+        "icon": "/apps/dota2/images/heroes/broodmother_icon.png",
+        "lane": "Midlane"
+    },
+    "62": {
+        "id": 62,
+        "localized_name": "Bounty Hunter",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/bounty_hunter_full.png?",
+        "icon": "/apps/dota2/images/heroes/bounty_hunter_icon.png",
+        "lane": "Roamer"
+    },
+    "63": {
+        "id": 63,
+        "localized_name": "Weaver",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/weaver_full.png?",
+        "icon": "/apps/dota2/images/heroes/weaver_icon.png",
+        "lane": "Safelane"
+    },
+    "64": {
+        "id": 64,
+        "localized_name": "Jakiro",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/jakiro_full.png?",
+        "icon": "/apps/dota2/images/heroes/jakiro_icon.png",
+        "lane": "Safelane"
+    },
+    "65": {
+        "id": 65,
+        "localized_name": "Batrider",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/batrider_full.png?",
+        "icon": "/apps/dota2/images/heroes/batrider_icon.png",
+        "lane": "Offlane"
+    },
+    "66": {
+        "id": 66,
+        "localized_name": "Chen",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/chen_full.png?",
+        "icon": "/apps/dota2/images/heroes/chen_icon.png",
+        "lane": "Safelane"
+    },
+    "67": {
+        "id": 67,
+        "localized_name": "Spectre",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/spectre_full.png?",
+        "icon": "/apps/dota2/images/heroes/spectre_icon.png",
+        "lane": "Safelane"
+    },
+    "68": {
+        "id": 68,
+        "localized_name": "Ancient Apparition",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/ancient_apparition_full.png?",
+        "icon": "/apps/dota2/images/heroes/ancient_apparition_icon.png",
+        "lane": "Safelane"
+    },
+    "69": {
+        "id": 69,
+        "localized_name": "Doom",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/doom_bringer_full.png?",
+        "icon": "/apps/dota2/images/heroes/doom_bringer_icon.png",
+        "lane": "Offlane"
+    },
+    "70": {
+        "id": 70,
+        "localized_name": "Ursa",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/ursa_full.png?",
+        "icon": "/apps/dota2/images/heroes/ursa_icon.png",
+        "lane": "Safelane"
+    },
+    "71": {
+        "id": 71,
+        "localized_name": "Spirit Breaker",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/spirit_breaker_full.png?",
+        "icon": "/apps/dota2/images/heroes/spirit_breaker_icon.png",
+        "lane": "Offlane"
+    },
+    "72": {
+        "id": 72,
+        "localized_name": "Gyrocopter",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/gyrocopter_full.png?",
+        "icon": "/apps/dota2/images/heroes/gyrocopter_icon.png",
+        "lane": "Safelane"
+    },
+    "73": {
+        "id": 73,
+        "localized_name": "Alchemist",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/alchemist_full.png?",
+        "icon": "/apps/dota2/images/heroes/alchemist_icon.png",
+        "lane": "Midlane"
+    },
+    "74": {
+        "id": 74,
+        "localized_name": "Invoker",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/invoker_full.png?",
+        "icon": "/apps/dota2/images/heroes/invoker_icon.png",
+        "lane": "Midlane"
+    },
+    "75": {
+        "id": 75,
+        "localized_name": "Silencer",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/silencer_full.png?",
+        "icon": "/apps/dota2/images/heroes/silencer_icon.png",
+        "lane": "Safelane"
+    },
+    "76": {
+        "id": 76,
+        "localized_name": "Outworld Devourer",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/obsidian_destroyer_full.png?",
+        "icon": "/apps/dota2/images/heroes/obsidian_destroyer_icon.png",
+        "lane": "Midlane"
+    },
+    "77": {
+        "id": 77,
+        "localized_name": "Lycan",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/lycan_full.png?",
+        "icon": "/apps/dota2/images/heroes/lycan_icon.png",
+        "lane": "Safelane"
+    },
+    "78": {
+        "id": 78,
+        "localized_name": "Brewmaster",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/brewmaster_full.png?",
+        "icon": "/apps/dota2/images/heroes/brewmaster_icon.png",
+        "lane": "Offlane"
+    },
+    "79": {
+        "id": 79,
+        "localized_name": "Shadow Demon",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/shadow_demon_full.png?",
+        "icon": "/apps/dota2/images/heroes/shadow_demon_icon.png",
+        "lane": "Safelane"
+    },
+    "80": {
+        "id": 80,
+        "localized_name": "Lone Druid",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/lone_druid_full.png?",
+        "icon": "/apps/dota2/images/heroes/lone_druid_icon.png",
+        "lane": "Midlane"
+    },
+    "81": {
+        "id": 81,
+        "localized_name": "Chaos Knight",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/chaos_knight_full.png?",
+        "icon": "/apps/dota2/images/heroes/chaos_knight_icon.png",
+        "lane": "Safelane"
+    },
+    "82": {
+        "id": 82,
+        "localized_name": "Meepo",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/meepo_full.png?",
+        "icon": "/apps/dota2/images/heroes/meepo_icon.png",
+        "lane": "Midlane"
+    },
+    "83": {
+        "id": 83,
+        "localized_name": "Treant Protector",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/treant_full.png?",
+        "icon": "/apps/dota2/images/heroes/treant_icon.png",
+        "lane": "Safelane"
+    },
+    "84": {
+        "id": 84,
+        "localized_name": "Ogre Magi",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/ogre_magi_full.png?",
+        "icon": "/apps/dota2/images/heroes/ogre_magi_icon.png",
+        "lane": "Safelane"
+    },
+    "85": {
+        "id": 85,
+        "localized_name": "Undying",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/undying_full.png?",
+        "icon": "/apps/dota2/images/heroes/undying_icon.png",
+        "lane": "Safelane"
+    },
+    "86": {
+        "id": 86,
+        "localized_name": "Rubick",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/rubick_full.png?",
+        "icon": "/apps/dota2/images/heroes/rubick_icon.png",
+        "lane": "Safelane"
+    },
+    "87": {
+        "id": 87,
+        "localized_name": "Disruptor",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/disruptor_full.png?",
+        "icon": "/apps/dota2/images/heroes/disruptor_icon.png",
+        "lane": "Safelane"
+    },
+    "88": {
+        "id": 88,
+        "localized_name": "Nyx Assassin",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/nyx_assassin_full.png?",
+        "icon": "/apps/dota2/images/heroes/nyx_assassin_icon.png",
+        "lane": "Offlane"
+    },
+    "89": {
+        "id": 89,
+        "localized_name": "Naga Siren",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/naga_siren_full.png?",
+        "icon": "/apps/dota2/images/heroes/naga_siren_icon.png",
+        "lane": "Safelane"
+    },
+    "90": {
+        "id": 90,
+        "localized_name": "Keeper of the Light",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/keeper_of_the_light_full.png?",
+        "icon": "/apps/dota2/images/heroes/keeper_of_the_light_icon.png",
+        "lane": "Safelane"
+    },
+    "91": {
+        "id": 91,
+        "localized_name": "Io",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/wisp_full.png?",
+        "icon": "/apps/dota2/images/heroes/wisp_icon.png",
+        "lane": "Safelane"
+    },
+    "92": {
+        "id": 92,
+        "localized_name": "Visage",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/visage_full.png?",
+        "icon": "/apps/dota2/images/heroes/visage_icon.png",
+        "lane": "Midlane"
+    },
+    "93": {
+        "id": 93,
+        "localized_name": "Slark",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/slark_full.png?",
+        "icon": "/apps/dota2/images/heroes/slark_icon.png",
+        "lane": "Safelane"
+    },
+    "94": {
+        "id": 94,
+        "localized_name": "Medusa",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/medusa_full.png?",
+        "icon": "/apps/dota2/images/heroes/medusa_icon.png",
+        "lane": "Midlane"
+    },
+    "95": {
+        "id": 95,
+        "localized_name": "Troll Warlord",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/troll_warlord_full.png?",
+        "icon": "/apps/dota2/images/heroes/troll_warlord_icon.png",
+        "lane": "Safelane"
+    },
+    "96": {
+        "id": 96,
+        "localized_name": "Centaur Warrunner",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/centaur_full.png?",
+        "icon": "/apps/dota2/images/heroes/centaur_icon.png",
+        "lane": "Offlane"
+    },
+    "97": {
+        "id": 97,
+        "localized_name": "Magnus",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/magnataur_full.png?",
+        "icon": "/apps/dota2/images/heroes/magnataur_icon.png",
+        "lane": "Offlane"
+    },
+    "98": {
+        "id": 98,
+        "localized_name": "Timbersaw",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/shredder_full.png?",
+        "icon": "/apps/dota2/images/heroes/shredder_icon.png",
+        "lane": "Offlane"
+    },
+    "99": {
+        "id": 99,
+        "localized_name": "Bristleback",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/bristleback_full.png?",
+        "icon": "/apps/dota2/images/heroes/bristleback_icon.png",
+        "lane": "Offlane"
+    },
+    "100": {
+        "id": 100,
+        "localized_name": "Tusk",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/tusk_full.png?",
+        "icon": "/apps/dota2/images/heroes/tusk_icon.png",
+        "lane": "Roamer"
+    },
+    "101": {
+        "id": 101,
+        "localized_name": "Skywrath Mage",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/skywrath_mage_full.png?",
+        "icon": "/apps/dota2/images/heroes/skywrath_mage_icon.png",
+        "lane": "Midlane"
+    },
+    "102": {
+        "id": 102,
+        "localized_name": "Abaddon",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/abaddon_full.png?",
+        "icon": "/apps/dota2/images/heroes/abaddon_icon.png",
+        "lane": "Offlane"
+    },
+    "103": {
+        "id": 103,
+        "localized_name": "Elder Titan",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/elder_titan_full.png?",
+        "icon": "/apps/dota2/images/heroes/elder_titan_icon.png",
+        "lane": "Safelane"
+    },
+    "104": {
+        "id": 104,
+        "localized_name": "Legion Commander",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/legion_commander_full.png?",
+        "icon": "/apps/dota2/images/heroes/legion_commander_icon.png",
+        "lane": "Offlane"
+    },
+    "105": {
+        "id": 105,
+        "localized_name": "Techies",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/techies_full.png?",
+        "icon": "/apps/dota2/images/heroes/techies_icon.png",
+        "lane": "Safelane"
+    },
+    "106": {
+        "id": 106,
+        "localized_name": "Ember Spirit",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/ember_spirit_full.png?",
+        "icon": "/apps/dota2/images/heroes/ember_spirit_icon.png",
+        "lane": "Midlane"
+    },
+    "107": {
+        "id": 107,
+        "localized_name": "Earth Spirit",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/earth_spirit_full.png?",
+        "icon": "/apps/dota2/images/heroes/earth_spirit_icon.png",
+        "lane": "Roamer"
+    },
+    "108": {
+        "id": 108,
+        "localized_name": "Underlord",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/abyssal_underlord_full.png?",
+        "icon": "/apps/dota2/images/heroes/abyssal_underlord_icon.png",
+        "lane": "Offlane"
+    },
+    "109": {
+        "id": 109,
+        "localized_name": "Terrorblade",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/terrorblade_full.png?",
+        "icon": "/apps/dota2/images/heroes/terrorblade_icon.png",
+        "lane": "Safelane"
+    },
+    "110": {
+        "id": 110,
+        "localized_name": "Phoenix",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/phoenix_full.png?",
+        "icon": "/apps/dota2/images/heroes/phoenix_icon.png",
+        "lane": "Offlane"
+    },
+    "111": {
+        "id": 111,
+        "localized_name": "Oracle",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/oracle_full.png?",
+        "icon": "/apps/dota2/images/heroes/oracle_icon.png",
+        "lane": "Safelane"
+    },
+    "112": {
+        "id": 112,
+        "localized_name": "Winter Wyvern",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/winter_wyvern_full.png?",
+        "icon": "/apps/dota2/images/heroes/winter_wyvern_icon.png",
+        "lane": "Safelane"
+    },
+    "113": {
+        "id": 113,
+        "localized_name": "Arc Warden",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/arc_warden_full.png?",
+        "icon": "/apps/dota2/images/heroes/arc_warden_icon.png",
+        "lane": "Midlane"
+    },
+    "114": {
+        "id": 114,
+        "localized_name": "Monkey King",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/monkey_king_full.png?",
+        "icon": "/apps/dota2/images/heroes/monkey_king_icon.png",
+        "lane": "Midlane"
+    },
+    "119": {
+        "id": 119,
+        "localized_name": "Dark Willow",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/dark_willow_full.png?",
+        "icon": "/apps/dota2/images/heroes/dark_willow_icon.png",
+        "lane": "Roamer"
+    },
+    "120": {
+        "id": 120,
+        "localized_name": "Pangolier",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/pangolier_full.png?",
+        "icon": "/apps/dota2/images/heroes/pangolier_icon.png",
+        "lane": "Offlane"
+    },
+    "121": {
+        "id": 121,
+        "localized_name": "Grimstroke",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/grimstroke_full.png?",
+        "icon": "/apps/dota2/images/heroes/grimstroke_icon.png",
+        "lane": "Safelane"
+    },
+    "126": {
+        "id": 126,
+        "localized_name": "Void Spirit",
+        "roles": "Carry",
+        "img": "/apps/dota2/images/heroes/void_spirit_full.png?",
+        "icon": "/apps/dota2/images/heroes/void_spirit_icon.png",
+        "lane": "Midlane"
+    },
+    "128": {
+        "id": 128,
+        "localized_name": "Snapfire",
+        "roles": "Support",
+        "img": "/apps/dota2/images/heroes/snapfire_full.png?",
+        "icon": "/apps/dota2/images/heroes/snapfire_icon.png",
+        "lane": "Safelane"
+    },
+    "129": {
+        "id": 129,
+        "localized_name": "Mars",
+        "roles": "Tanker",
+        "img": "/apps/dota2/images/heroes/mars_full.png?",
+        "icon": "/apps/dota2/images/heroes/mars_icon.png",
+        "lane": "Offlane"
+    }
+}

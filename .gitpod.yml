@@ -1,0 +1,19 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 8000
+    onOpen: open-preview
+  - port: 3306
+    onOpen: ignore
+
+tasks:
+  - init: |
+      cp .env.example .env
+      composer install
+      npm install
+      php artisan key:generate
+      mysql -u root -e "CREATE DATABASE dotahunt;"
+      php artisan migrate
+    command: |
+      php artisan serve --host=0.0.0.0

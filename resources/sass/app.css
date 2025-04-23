@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.btn-indigo {
+  @apply bg-indigo-700 text-white rounded;
+}
+.btn-indigo:hover {
+  @apply bg-indigo-800;
+}
+.mini-card {
+  @apply bg-white m-2 rounded-lg shadow-md px-4 py-2 w-56 capitalize;
+}
+@tailwind utilities;

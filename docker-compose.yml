@@ -1,0 +1,37 @@
+version: '3'
+services:
+  app:
+    image: bitnami/laravel:7.30.4
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=dotahunt
+      - DB_USERNAME=dotahunt
+      - DB_PASSWORD=dotahunt
+      - APP_KEY=base64:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    depends_on:
+      - db
+    command: >
+      bash -c "composer install &&
+               php artisan key:generate &&
+               php artisan migrate &&
+               php artisan serve --host=0.0.0.0"
+
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=dotahunt
+      - MYSQL_USER=dotahunt
+      - MYSQL_PASSWORD=dotahunt
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
